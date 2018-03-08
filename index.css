@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    image-rendering: pixelated;
+}
+
+body {
+    font-family: "chikarego2medium";
+    background-image: url("images/bg@2x.png");
+    background-size: 14px 14px;
+    font-size: 24px;
+}
+
+.flex {
+    display: flex;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+a {
+    color: #000;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 1024px;
+    min-height: 684px;
+    border: 2px solid black;
+    margin-bottom: 40px;
+}
+
+.clipart {
+    background-image: url("images/ClipartBG.png");
+    background-repeat: no-repeat;
+    background-size: 1024px 684px;
+}
+
+.border-14 {
+    border-style: solid;
+border-width: 44px 48px 48px 44px;
+-moz-border-image: url("images/Border14.png") 50 48 round;
+-webkit-border-image: url("images/Border14.png") 50 48 round;
+-o-border-image: url("images/Border14.png") 50 48 round;
+border-image: url("images/Border14.png") 50 48 fill round;
+}
+
+.border-1 {
+    border-style: solid;
+    border-width: 18px;
+    -moz-border-image: url("images/Border1.png") 18 round;
+    -webkit-border-image: url("images/Border1.png") 18 round;
+    -o-border-image: url("images/Border1.png") 18 round;
+    border-image: url("images/Border1.png") 18 fill round;
+}
+
+.mr-20 {
+    margin-right: 40px;
+}
+
+.content {
+    padding: 24px;
+    background-color: white;
+}
+
+.content-box {
+    width: 880px;
+    height: 600px;
+    margin-top: 40px;
+    margin-left: 72px;
+    border: 2px solid black;
+}
+
+.content-fill {
+    height: 100%;
+    width: 100%;
+}

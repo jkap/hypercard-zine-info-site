@@ -1,0 +1,13 @@
+{
+  "name": "hypercard-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-html-beautify": "^1.0.1"
+  }
+}
