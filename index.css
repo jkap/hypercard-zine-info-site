@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: "chikarego2medium";
+    font-family: "chikarego2medium", "Chicago", sans-serif;
     background-image: url("images/bg@2x.png");
     background-size: 14px 14px;
     font-size: 24px;
